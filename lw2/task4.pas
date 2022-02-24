@@ -8,12 +8,21 @@ VAR
 BEGIN{GetQueryStringParameter}
   Querry:= GetEnv('QUERY_STRING');
   PosParameter:= Pos(Key + '=', Querry);
-  Parameter:= Copy(Querry, PosParameter+Length(Key)+1, Length(Querry));
-  PosDivider:= Pos('&', Parameter);
+  IF PosParameter <> 0
+  THEN
+    BEGIN
+      Parameter:= Copy(Querry, PosParameter+Length(Key)+1, Length(Querry));
+      PosDivider:= Pos('&', Parameter);
+    END
+  ELSE
+    WRITE('You didn''t write this parameter');
   IF PosDivider <> 0 
   THEN
     Parameter:= Copy(Parameter, 1, PosDivider-1);
-  GetQueryStringParameter:= Parameter
+  GetQueryStringParameter:= Parameter;
+  IF GetQueryStringParameter = ''
+  THEN
+    WRITE('You didn''t write this parameter')
 END;{GetQueryStringParameter}
 
 BEGIN {GetParameter}
