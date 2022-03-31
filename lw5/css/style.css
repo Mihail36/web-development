@@ -1,0 +1,98 @@
+.button{
+    font: 600 12.639px/120% 'Montserrat', sans-serif;
+    background-color: #000000;
+    color: #FFFFFF;
+    box-sizing: border-box;
+    border-radius: 4.59px;
+
+}
+
+.button_short{
+    padding: 14.36px 34.425px;
+    height: 45px;
+    width: 200px;
+}
+.button_long{
+    padding: 14px 67.93px;
+    height: 46.1px;
+    width: 266.988px;
+}
+.header-text{
+    font: 600 80px/120% 'Montserrat', sans-serif;
+}
+.medium-text{
+    font: 500 13px/120% 'Montserrat', sans-serif;
+}
+.text-highlight{
+    color: #FF00FF;
+}
+.logo{
+  font: 700 23px/122.33% 'Montserrat', sans-serif;
+}
+.simple-text{
+    font: 400 18.53px/120% 'Roboto', sans-serif;
+}
+.image-man{
+    width: 680px;
+    height: 680px;
+}
+
+.discription{
+    background-color: #000000;
+    color: #FFFFFF;
+}
+.discription__image{
+    width: 48px;
+    height: 48px;
+}
+.discription__text{
+    font: 400 15.65px/120% 'Roboto', sans-serif;
+    width: 280px;
+}
+.footer-background{
+    background-color: #000000;
+    color: #FFFFFF;
+    height: 108px;
+    width: 1920px;
+}
+.chaos__image{
+  width: 425.37px;
+  height: 375.43px;
+}
+.chaos__text-header{
+    font: 500 38px/126.06% 'Montserrat', sans-serif;
+}
+.chaos__text-simple{
+    font: 400 12.85px/135% 'Roboto', sans-serif;
+}
+.hopelessness__image{
+  width: 300px;
+  height: 500px;
+}
+.hopelessness__text-header{
+    font: 500 38px/126.06% 'Montserrat', sans-serif;
+}
+.hopelessness__text-simple{
+    font: 400 12.85px/135% 'Roboto', sans-serif;
+}
+.text-possibility{
+    font: 500 38px/59px 'Montserrat', sans-serif;
+}
+.nameplate{
+    background-color: #000000;
+    color: #FFFFFF;
+    box-sizing: border-box;
+    border-radius:  7.35723px;
+    height: 155px;
+    width: 290px;
+    margin: 0px 30px 10px;
+}
+.nameplate__text{
+    padding: 0px 35px;
+    font: 400 12.85px/21px 'Roboto', sans-serif; 
+}
+.nameplate__image{
+    padding: 20px 32px 0px;
+}
+
+  
